@@ -1,3 +1,7 @@
+![thallo logo](thallo_logo_text_grey_background.png)
+
+[Tomorrow’s carbon market. Powered by blockchain.](https://thallo.io)
+
 # Ethers JS Supplementary Examples
 
 This document is supplementary to the official [ethers docs](https://docs.ethers.io/v5/). I am not a contributor to ethers and am not affiliated with the project other than being an avid user. This document is primarily examples and tips/tricks I've found from my experience with the library. It does not cover all the functionality of ethers. It also will not necessarily explain in detail how the library works or why something works the way it does. These are meant to be pragmatic/empirical examples. This document is meant for developers who are interacting with a network through NodeJS scripts. It is **not** meant for developing web3 frontends, although some functionality may translate.
