@@ -7,6 +7,7 @@ import "@nomiclabs/hardhat-ethers";
 
 const PRIVATE_KEY = process.env.PRIVATE_KEY || "";
 const MAINNET_RPC = process.env.MAINNET_RPC || "";
+const ARCHIVE_RPC = process.env.ARCHIVE_RPC || "";
 
 const config = {
   defaultNetwork: "hardhat",
@@ -18,14 +19,10 @@ const config = {
         count: 10,
       },
       loggingEnabled: true,
-    },
-    localhost: {
-      timeout: 100_000,
-      loggingEnabled: true,
-      mining: {
-        auto: true,
+      forking: {
+        url: ARCHIVE_RPC,
+        blockNumber: 14841742,
       },
-      url: "http://127.0.0.1:8545/",
     },
     mainnet: {
       url: MAINNET_RPC,

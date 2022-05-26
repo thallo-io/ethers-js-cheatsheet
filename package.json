@@ -12,6 +12,8 @@
     "typescript": "^4.7.2"
   },
   "scripts": {
-    "script": "npx hardhat run"
+    "script": "npx hardhat run",
+    "compile": "npx hardhat compile",
+    "chain": "npx hardhat node"
   }
 }
