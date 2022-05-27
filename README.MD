@@ -172,7 +172,7 @@ Copying the abi from etherscan, let's use the OpenSea WyvernProtocol as an examp
 
 > Note that you can create a type from an abi json with typechain by running the following:
 
-```ts
+```shell
 npx typechain --target ethers-v5 --out-dir types-abi ./wyvernProtocol.json
 ```
 
@@ -180,7 +180,7 @@ npx typechain --target ethers-v5 --out-dir types-abi ./wyvernProtocol.json
 
 We would run the below in hardhat with
 
-```ts
+```shell
 npx hardhat run scripts/readOs.ts --network mainnet
 ```
 
