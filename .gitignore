@@ -4,3 +4,4 @@ cache
 artifacts
 typechain
 .vscode
+types-abi

@@ -14,6 +14,7 @@
   "scripts": {
     "script": "npx hardhat run",
     "compile": "npx hardhat compile",
-    "chain": "npx hardhat node"
+    "chain": "npx hardhat node",
+    "create-type": "npx typechain --target ethers-v5 --out-dir types-abi"
   }
 }
